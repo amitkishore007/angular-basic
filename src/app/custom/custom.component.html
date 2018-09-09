@@ -1,0 +1,9 @@
+<p>
+  custom works!
+</p>
+
+<button (click)="onTextCreate()" >Create Dynamic Text</button>
+<p>{{ customText }} </p>
+
+<input type="text" placeholder="Enter some text" (input)="onUpdateText($event)" />
+<p>{{ updatedText }}</p>
